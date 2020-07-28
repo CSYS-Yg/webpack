@@ -4,7 +4,9 @@
     "description": "webpack 学习与尝试",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build 注释": "build 指向的是 node_modules 的 .bin 目录下，即该目录创建软链接。使用 npm run build 运行。",
+        "build": "webpack"
     },
     "repository": {
         "type": "git",
