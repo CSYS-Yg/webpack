@@ -1,0 +1,1 @@
+document.write("新增搜索入口")
